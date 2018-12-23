@@ -17,15 +17,17 @@ National Geographic was selected due to its homogenuity of posts, overall user a
 ## Important Notes
 
 1. The engagement score of each post was calculated based on the below formula:
-$$EngagementValue = 0.4\frac{likes}{max Likes} + 0.6\frac{comments}{max Comments}$$ 
+
+*Engagement_Value = 0.4*(likes/max_Likes) + 0.6*(comments/max_Comments)*
 
 Using this formula and the overall median engagement value of all the posts, I set the "Engagement" parameter as 1 (there was engagement related to a post) for all posts that had EngagementValue above or equal to the median and 0 for the rest of the posts, classifying all our posts into two discrete categories. It was important to take into account the relevant engagement of each post, identifying the posts that were popular in relation to the rest of the National Geographic posts.
 
-2. Three different logistic regression models were used in the analysis:
 
+2. Three different logistic regression models were used in the analysis:
 - One using the google vision API labels as input
 - One using the image captions as input
 - One using both google vision API labels and image captions as input
+
 
 3. The use of LDA (Latent Dirichlet allocation) for the clustering of the images and theme selection was used multiple times until through the review of the words with the highest scores per category was decided that there were 4 underlying themes in the images:
 
@@ -33,6 +35,7 @@ Using this formula and the overall median engagement value of all the posts, I s
 - human factor
 - animal
 - scenery
+
 
 ## Interesting Insights
 
