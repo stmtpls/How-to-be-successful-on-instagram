@@ -1,4 +1,4 @@
-# Instagram - What makes a post successful
+# How to be successful on Instagram
 
 ## The Project
 
@@ -11,7 +11,7 @@ National Geographic was selected due to its homogenuity of posts, overall user a
 - Python 3
 - Jupyter Notebook
 - Google Vision API 
-- Sklean
+- Sklearn
 
 
 ## Important Notes
